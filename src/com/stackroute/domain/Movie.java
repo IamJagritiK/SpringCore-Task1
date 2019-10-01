@@ -1,53 +1,10 @@
-/*TASK 1
- * package com.stackroute.domain;
-
-public class Movie {
-	
-
-    Actor actor;
-    public Actor getActor() {
-        return actor;
-    }
-
-    public void setActor(Actor actor) {
-        this.actor = actor;
-    }
-
-    @Override
-    public String toString() {
-        return "Movie{" +
-                "actor=" + actor +
-                '}';
-    }
-	
-}
-*/
-
 package com.stackroute.domain;
-
-public class Movie {
-
-    Actor actor;
-
-    public Movie(Actor actor) {
-        this.actor = actor;
-    }
-
-
-    public Actor getActor() {
-        return actor;
-    }
-
-    public void setActor(Actor actor) {
-        this.actor = actor;
-    }
-
-    @Override
-    public String toString() {
-        return "Movie{" +
-                "actor=" + actor +
-                '}';
-    }
-}
-
-
+public class Movie {   
+ public Movie(Actor actor) {
+       this.actor = actor;
+   }    Actor actor;    public void setActor(Actor actor) {
+       this.actor = actor;
+   }    public void print()
+   {
+       actor.prints();
+   }}
