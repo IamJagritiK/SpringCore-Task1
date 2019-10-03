@@ -25,12 +25,7 @@ public class Movie implements ApplicationContextAware, BeanFactoryAware,BeanName
        moviecontext.print();    }    public Movie(Actor actor) {
        this.actor = actor;
 }
-//
-//       public void setActor(Actor actor) {
-//        this.actor = actor;
-//    }
-//    public Movie() {
-//   }
+
    @Override
    public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
        this.beanFactory = beanFactory;
